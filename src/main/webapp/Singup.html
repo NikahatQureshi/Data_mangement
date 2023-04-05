@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sing_up</title>
+<link  rel="stylesheet" href="Css\Signup.css">
+</head>
+
+
+ <body>
+<script src="js\Singup.js"></script>
+<form action="sign_servelet" method="post">
+
+    <div class="Rogin-page">
+      <div class="form">
+        <div class="Rogin">
+          <div class="Rogin-header">
+            <h3>Registration Form</h3>
+            <p>Please enter your credentials to Register.</p>
+          </div>
+        </div>
+        <form class="Rogin-form">
+          <input type="text" placeholder="Username" name="Username"/>
+          <input type="text" placeholder="Password" name="Password"/>
+          <input type="text" placeholder="Full_Name" name="Full_Name"/>
+          <input type="text" placeholder="Phone_number" name="Phone_Number"/>
+          <input type="text" placeholder="Email" name="Email"/>
+          
+          <button  onclick="showMessage()">Register</button><br><br>
+          <br><button onclick="showMessage1()">Clear</button>
+          
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
